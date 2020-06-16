@@ -1,3 +1,4 @@
+// Revisit because performance tests show that toString().split(",") is actuall marginally faster across the whole board
 const converter = require('buffer-string-to-array')
 
 var start = new Date();

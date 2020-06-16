@@ -1,3 +1,4 @@
+// Revisit because performance tests show that toString().split(",") is actuall marginally faster across the whole board
 exports.convert = function(_string){
     temp = '';
     array = [];
