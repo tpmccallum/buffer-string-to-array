@@ -1,7 +1,7 @@
 exports.convert = function(_string){
     temp = '';
     array = [];
-    for (c of result[0].wasm_binary.toString()) {
+    for (c of _string) {
         if (c == ",") {
             array.push(Number(temp));
             temp = '';
