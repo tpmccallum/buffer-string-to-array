@@ -1,7 +1,7 @@
 {
   "name": "buffer-string-to-array",
-  "version": "1.0.3",
-  "description": "A really fast way to convert Nodejs Buffer.toString() output to an array. This is faster than using Buffer.toString().split(\",\")",
+  "version": "1.0.4",
+  "description": "Convert Nodejs Buffer.toString() output to an array.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

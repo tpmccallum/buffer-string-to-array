@@ -1,5 +1,5 @@
 # buffer-string-to-array
-A really fast way to convert Nodejs `Buffer.toString()` output to an array. This is faster than using `Buffer.toString().split(",")`
+Convert Nodejs `Buffer.toString()` output to an array.
 
 # Usage
 This is used in situations where you have saved an array to a database LONGBLOG i.e. using [mysqljs/mysql](https://github.com/mysqljs/mysql/issues/2360) whereby the database stores your original array as the hex string Buffer of the original array's string representation.
