@@ -7,7 +7,7 @@ _string = "0,97,115,109,1,0,0,0,1,86,14,96,2,127,127,1,127,96,3,127,127,127,1,12
 for (var i = 0; i < 1; i++) {
     var array = _string.split(",");
 }
-console.log(array);
+//console.log(array);
 var end = new Date() - start,
     hrend = process.hrtime(hrstart);
 console.info('Whole process completed in: %dms', hrend[1] / 1000000);

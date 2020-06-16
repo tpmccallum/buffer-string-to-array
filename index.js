@@ -1,20 +1,4 @@
 exports.convert = function(_string){
-    temp = '';
-    array = [];
-    for (const c of _string) {
-        if (c == ",") {
-            array.push(Number(temp));
-            temp = '';
-        } else {
-            if (temp.length == 0) {
-                temp = c;
-            } else {
-                temp = temp + c;
-            }
-        }
-    }
-    if (temp.length > 0){
-        array.push(Number(temp));
-    }
-    return array;
+    const re = new RegExp(',');
+    return Uint8Array.from(_string.match(re, '$&').input);
 }
