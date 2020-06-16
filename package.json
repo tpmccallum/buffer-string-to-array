@@ -1,6 +1,6 @@
 {
   "name": "buffer-string-to-array",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Convert Nodejs Buffer.toString() output to an array.",
   "main": "index.js",
   "scripts": {
