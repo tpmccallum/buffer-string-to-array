@@ -1,4 +1,5 @@
 exports.convert = function(_string){
     const re = new RegExp(',');
-    return _string.match(re, '$&').input;
+    var array = _string.match(re, '$&').input;
+    return array;
 }
