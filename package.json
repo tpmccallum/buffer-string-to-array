@@ -1,0 +1,24 @@
+{
+  "name": "buffer-string-to-array",
+  "version": "1.0.1",
+  "description": "A really fast way to convert Nodejs Buffer.toString() output to an array. This is faster than using Buffer.toString().split(\",\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpmccallum/buffer-string-to-array.git"
+  },
+  "keywords": [
+    "Buffer",
+    "Array",
+    "Uint8Array"
+  ],
+  "author": "tpmccallum <contact@timothymccallum.com.au> (timothymccallum.com.au)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpmccallum/buffer-string-to-array/issues"
+  },
+  "homepage": "https://github.com/tpmccallum/buffer-string-to-array#readme"
+}
